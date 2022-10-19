@@ -5,4 +5,11 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s = "salom"
+    
+    even = (s[:])
+
+
+    return even 
+
+print(main("s"))    
