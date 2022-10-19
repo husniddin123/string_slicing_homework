@@ -9,9 +9,9 @@ def main(s):
 
     s = "asasa"
 
-    evend = s [4:]
+    evend = (s [: 4])
 
 
     return evend
 
-print(main())    
+print(main("s"))    
