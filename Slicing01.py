@@ -8,8 +8,8 @@ def main(s):
     """
 
     s =  "salomu"
-    reverd = s[: 4]
+    reverd = (s[: 4])
 
     return reverd
 
-print(main())    
+print(main("s"))    
