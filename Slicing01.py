@@ -6,4 +6,10 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+
+    s =  "salomu"
+    reverd = s[: 4]
+
+    return reverd
+
+print(main())    
