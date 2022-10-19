@@ -6,4 +6,12 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+
+    s = "asasa"
+
+    evend = s [4:]
+
+
+    return evend
+
+print(main())    
