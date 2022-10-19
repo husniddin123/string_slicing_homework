@@ -1,3 +1,6 @@
+from re import A
+
+
 def main(s,n):
     """
     The s string variable is given. return n characters from the end.
@@ -7,4 +10,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    a = s [n:]
+    return a 
+
+print(main("salom" , -3))    
+
