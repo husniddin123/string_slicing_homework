@@ -1,3 +1,6 @@
+from re import A
+
+
 def main(s,n):
     """
     The s string variable is given. return all characters except n characters from the beginning.
@@ -7,4 +10,7 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    a = s [n:]
+    return a 
+
+print(main("salom" , -4))    
